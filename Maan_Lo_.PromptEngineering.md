@@ -10,9 +10,9 @@ LLM Used: Google Gemini 3.5 Flash
 
 #### Prompt V1
 
-```text
+
 Explain blockchain to a 10-year-old.
-```
+
 
 #### Output V1
 
