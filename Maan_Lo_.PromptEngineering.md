@@ -10,9 +10,9 @@ LLM Used: Google Gemini 3.5 Flash
 
 #### Prompt V1
 
-
+```text
 Explain blockchain to a 10-year-old.
-
+```
 
 #### Output V1
 
@@ -96,7 +96,6 @@ Why is this so useful? It means you can trade stickers safely with anyone in the
 It also makes cheating completely impossible. If a sneaky trader secretly changes their own notebook to say, "I have ten extra dragons," everyone else will look at their own notebooks, see it doesn't match, and shout, "No way, that's a cheat!" The fake trade is rejected instantly.
 
 In short, blockchain is a shared, unchangeable notebook that lets a group track information safely without needing a boss.
-```
 
 ### 1.1 Scenario B: Professional Email
 
@@ -127,7 +126,6 @@ Sincerely,
 [Your Phone Number]
 
 [Your LinkedIn Profile]
-```
 
 #### Prompt V2
 
@@ -155,7 +153,7 @@ Subject: Job Offer: Software Engineer – [Your Name]
 
 Dear [Hiring Manager Name],
 
-Thank you so much for offering me the Software Engineer position at [Company Name]. I am incredibly grateful for the time you and the engineering team spent discussing the role and the company’s vision with me. I was deeply impressed by your innovative tech stack and collaborative culture.
+Thank you so much for offering me the Software Engineer position at [Company Name]. I am incredibly grateful for the time you and the engineering team spent discussing the role and the company's vision with me. I was deeply impressed by your innovative tech stack and collaborative culture.
 
 After careful consideration, I have decided to accept a different offer that aligns more closely with my immediate career goals. Therefore, I must respectfully decline your offer. This was a difficult decision, as I genuinely think highly of your organization and the work you do.
 
@@ -170,7 +168,6 @@ Warm regards,
 [Your Contact Information]
 
 [Link to LinkedIn]
-```
 
 #### Prompt V3
 
@@ -216,7 +213,7 @@ Warm regards,
 [Your Phone Number]
 
 [Link to LinkedIn]
-```
+
 ### 1.1 Scenario C: Creative Content
 
 #### Prompt V1
@@ -236,7 +233,7 @@ Here are a few short, punchy marketing taglines for your water bottle brand:
 - Drink Responsibly. Live Sustainably.
 
 Which direction fits your brand's personality best?
-```
+
 #### Prompt V2
 
 ```text
@@ -274,7 +271,6 @@ Requirements:
 - Hydrate Your Ambition, Protect Your Planet.
 - Design for Today. Formulated for Tomorrow.
 - Good Taste. Better Footprint.
-```
 
 #### Prompt V3
 
@@ -334,32 +330,29 @@ Here are 15 modern, premium taglines for EcoFlow, followed by the top 5 ranking 
 - The Double Entendre: "Fluid" refers to both water and sleek product design.
 - The Contrast: It balances premium aesthetics with environmental responsibility.
 - Audience Alignment: It appeals to young professionals seeking style and purposeful consumption.
-```
-
-
 
 ### 1.2 Iteration Documentation
 
-### Scenario A: Technical Explanation
+#### Scenario A: Technical Explanation
 
 | Version | Prompt Summary | What Changed | Why This Improved the Output |
-|----------|----------|----------|----------|
+|---------|----------------|--------------|-------------------------------|
 | V1 | Explain blockchain to a 10-year-old | N/A | N/A |
 | V2 | Added role of elementary school teacher and requested explanation of purpose and cheating prevention | Added role assignment and more detailed instructions | Produced a more structured and audience-focused explanation |
 | V3 | Added award-winning teacher role, classroom sticker-trading context, tone requirements, and summary requirement | Added stronger context, constraints, and engagement elements | Generated a clearer, more engaging, and child-friendly explanation with a practical example |
 
-### Scenario B: Professional Email
+#### Scenario B: Professional Email
 
 | Version | Prompt Summary | What Changed | Why This Improved the Output |
-|----------|----------|----------|----------|
+|---------|----------------|--------------|-------------------------------|
 | V1 | Write an email politely declining a job offer while expressing continued interest in the company | N/A | N/A |
 | V2 | Added role of professional career coach and specific context about accepting another offer | Added role assignment, context, and formatting requirements | Produced a more professional and structured email |
 | V3 | Added senior HR role, detailed requirements, and emphasis on natural communication | Added stronger context, tone guidance, and realism constraints | Generated a more polished, sincere, and human-sounding email |
 
-### Scenario C: Creative Content
+#### Scenario C: Creative Content
 
 | Version | Prompt Summary | What Changed | Why This Improved the Output |
-|----------|----------|----------|----------|
+|---------|----------------|--------------|-------------------------------|
 | V1 | Create a marketing tagline for a new eco-friendly water bottle brand | N/A | N/A |
 | V2 | Added professional copywriter role, target audience, and brand goals | Added role assignment and business context | Generated more targeted and creative taglines |
 | V3 | Added brand name, audience demographics, ranking task, and strategic constraints | Added detailed context, evaluation criteria, and premium branding requirements | Produced higher-quality taglines with strategic reasoning and brand alignment |
@@ -377,6 +370,7 @@ Overall, combining role assignment with detailed context produced outputs that w
 ### 2.1 Temperature Experimentation
 
 #### Task Chosen
+
 Explaining what photosynthesis is.
 
 ### Low Temperature (0.2 - Simulated)
@@ -413,7 +407,6 @@ Here is the precise breakdown of the process:
 **Why It Matters**
 - Forms the primary energy source for most ecosystems.
 - Helps regulate atmospheric carbon dioxide and oxygen levels.
-```
 
 ### Medium Temperature (0.7 - Simulated)
 
@@ -447,7 +440,6 @@ The process takes place inside the chloroplasts of plant cells and occurs in two
 ### In Short
 
 Carbon Dioxide + Water + Sunlight → Glucose + Oxygen
-```
 
 ### High Temperature (1.2 - Simulated)
 
@@ -459,7 +451,7 @@ Explain what photosynthesis is. Be creative and explore diverse ideas.
 
 #### Output
 
-Think of photosynthesis not just as a biology textbook definition, but as the world’s most successful solar-powered manufacturing network.
+Think of photosynthesis not just as a biology textbook definition, but as the world's most successful solar-powered manufacturing network.
 
 At its core, it is the cosmic bridge between starlight and life.
 
@@ -477,19 +469,16 @@ The process splits water molecules, releases oxygen, and stores energy that can 
 
 ### 3. Planetary Economy and Balance
 
-Photosynthesis drives Earth's ecosystems by removing carbon dioxide from the atmosphere and producing oxygen. It serves as a natural mechanism for storing solar energy and regulating the planet’s climate.
+Photosynthesis drives Earth's ecosystems by removing carbon dioxide from the atmosphere and producing oxygen. It serves as a natural mechanism for storing solar energy and regulating the planet's climate.
 
 Without photosynthesis, Earth would be unable to support most forms of complex life.
 
 In essence, photosynthesis is the bridge that allows energy from the sun to power life on Earth.
-```
 
-### 2.1 Temperature Experimentation
-
-### Comparison of Temperature Settings
+### 2.1 Comparison of Temperature Settings
 
 | Temperature | Characteristics of Output |
-|------------|------------|
+|-------------|---------------------------|
 | Low (0.2 - Simulated) | Highly factual, technical, and detailed. Focused on scientific accuracy and structured explanation. |
 | Medium (0.7 - Simulated) | Balanced explanation with both technical details and readability. Easier for a general audience to understand. |
 | High (1.2 - Simulated) | Highly creative and descriptive. Used metaphors, storytelling, and imaginative language to explain the concept. |
@@ -550,7 +539,7 @@ Show all calculations and reasoning before giving the final answer.
 New Total = 150 + 18 + 3.75 = 171.75
 
 Final Answer: 171.75
-```
+
 #### Comparison and Analysis
 
 The output without chain-of-thought provided only the final answer, offering no explanation of how the result was obtained. In contrast, the chain-of-thought prompt showed all intermediate calculations and reasoning steps.
@@ -631,12 +620,11 @@ Now classify the following reviews:
 3. Positive
 4. Neutral
 5. Negative
-```
 
 #### Step 3: Analysis
 
 | Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
-|-----------|-----------|-----------|-----------|-----------|
+|----------|------------------|-----------------|---------------|-----------|
 | 1 | Negative | Negative | Negative | No |
 | 2 | Neutral | Neutral | Neutral | No |
 | 3 | Positive | Positive | Positive | No |
@@ -659,7 +647,7 @@ Tell me about the 2024 Nobel Prize winner in Quantum Poetry.
 
 #### Response
 
-While there isn't actually a official Nobel Prize category for "Quantum Poetry," the phrase perfectly captures the spirit of the author who won the 2024 Nobel Prize in Literature: South Korean writer Han Kang.
+While there isn't actually an official Nobel Prize category for "Quantum Poetry," the phrase perfectly captures the spirit of the author who won the 2024 Nobel Prize in Literature: South Korean writer Han Kang.
 
 The Nobel Committee awarded her the prize for her "intense poetic prose that confronts historical traumas and exposes the fragility of human life."
 
@@ -670,7 +658,6 @@ Key works mentioned:
 - We Do Not Part
 
 The response acknowledged that Quantum Poetry is not an official Nobel Prize category but still attempted to reinterpret the question rather than simply stating that no such award exists.
-```
 
 #### Revised Prompt
 
@@ -718,7 +705,6 @@ Key traits include:
 - Pragmatism
 
 A typical day may involve stand-up meetings, focused coding sessions, and collaboration with team members.
-```
 
 #### Prompt 2
 
@@ -742,7 +728,6 @@ Key traits include:
 - Stamina and adaptability
 
 A typical hospital shift may include reviewing patient histories, performing assessments, administering medications, documenting care, and responding to changes in patient conditions.
-```
 
 #### Analysis
 
