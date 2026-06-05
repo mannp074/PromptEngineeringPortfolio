@@ -1,8 +1,8 @@
 # Prompt Engineering Portfolio
 
-Name: Maan Lo
-Date: 5 June 2026
-LLM Used: Google Gemini 3.5 Flash
+Name: Maan Lo.
+Date: 5 June 2026.
+LLM Used: Google Gemini 3.5 Flash.
 
 ## Part 1: Prompt Design & Iteration
 
